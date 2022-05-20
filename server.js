@@ -9,8 +9,7 @@ fastify.get("/items", (req, reply) => {
 fastify.get("/items/:id", (req, reply) => {
   const { id } = req.params;
 
-  //const item = items.find((item) => item.id === id);
-  const item = items.find((item) => item.id === id)
+  const item = items.find((item) => item.id === id);
   reply.send(item);
 });
 
