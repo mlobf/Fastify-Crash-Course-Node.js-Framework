@@ -5,6 +5,9 @@ const fastify = require("fastify")({ logger: true });
   add Swagger for Fastify
 // VOLTOU AS 29:44
   add required fields for add item.
+// VOLTOU AS 32:01
+  add delete item endpoint
+
 */
 
 fastify.register(require("fastify-swagger"), {
