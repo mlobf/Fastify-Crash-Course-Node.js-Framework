@@ -1,8 +1,10 @@
 const fastify = require("fastify")({ logger: true });
 
-// VOLTOU AS 22:42
 /*
+// VOLTOU AS 22:42
   add Swagger for Fastify
+// VOLTOU AS 29:44
+  add required fields for add item.
 */
 
 fastify.register(require("fastify-swagger"), {

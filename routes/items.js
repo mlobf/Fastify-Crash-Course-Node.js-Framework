@@ -35,6 +35,13 @@ const getItemOpts = {
 // Options for Post one item => Return an Object
 const postItemOpts = {
   schema: {
+    body: {
+      type: "object",
+      required: ["name"],
+      properties: {
+        name: { type: "string" },
+      },
+    },
     response: {
       201: Item,
     },
