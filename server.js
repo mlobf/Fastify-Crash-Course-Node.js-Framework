@@ -8,6 +8,8 @@ const fastify = require("fastify")({ logger: true });
 // VOLTOU AS 32:01
   add delete item endpoint
 
+// VOLTOU AS 35:20
+  add update item endpoint
 */
 
 fastify.register(require("fastify-swagger"), {
