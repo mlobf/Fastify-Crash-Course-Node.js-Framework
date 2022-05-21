@@ -1,4 +1,7 @@
 const fastify = require("fastify")({ logger: true });
+
+// VOLTOU AS 19:23
+
 fastify.register(require("./routes/items"));
 
 const PORT = 5000;
