@@ -12,6 +12,7 @@ fastify.register(require("fastify-swagger"), {
     info: { title: "fastify-api this is just for a testing proposes" },
   },
 });
+
 fastify.register(require("./routes/items"));
 
 const PORT = 5000;
